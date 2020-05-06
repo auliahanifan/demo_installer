@@ -1,0 +1,9 @@
+version: "3.4"
+
+services:
+  flask:
+    image: ahanifan/flask_demo:latest
+    ports:
+      - 5000:5000
+    env_file:
+      - flask_env.env
